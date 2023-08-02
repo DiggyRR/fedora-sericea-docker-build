@@ -4,7 +4,7 @@ FROM quay.io/fedora-ostree-desktops/sericea:38
 # Add necessary files to the /tmp directory
 ADD https://sericea-files.s3.eu-west-1.amazonaws.com/nwg-displays-0.3.3-1.fc38.noarch.rpm /tmp/
 ADD https://sericea-files.s3.eu-west-1.amazonaws.com/sddm-chili.tar /tmp/
-ADD https://sericea-files.s3.eu-west-1.amazonaws.com/wallpaper.jpg /tmp/
+ADD https://diggyos-assets.s3.eu-west-1.amazonaws.com/wallpaper.jpg /tmp/
 ADD https://sericea-files.s3.eu-west-1.amazonaws.com/swaylock-effects-1.6.4-1.fc36.x86_64.rpm /tmp/
 
 # Run commands
