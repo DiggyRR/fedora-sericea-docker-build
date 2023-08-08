@@ -7,7 +7,7 @@ ADD https://sericea-files.s3.eu-west-1.amazonaws.com/sddm-chili.tar /tmp/
 ADD https://diggyos-assets.s3.eu-west-1.amazonaws.com/wallpaper.jpg /tmp/
 ADD https://sericea-files.s3.eu-west-1.amazonaws.com/swaylock-effects-1.6.4-1.fc36.x86_64.rpm /tmp/
 ADD https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm /tmp/ 
-ADD ttps://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm /tmp/
+ADD https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm /tmp/
 
 # Run commands
 # 1. Update the automatic update policy
